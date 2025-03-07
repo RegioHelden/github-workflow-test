@@ -8,7 +8,7 @@ on:
 
 jobs:
   lint:
-    uses: RegioHelden/github-reusable-workflows/.github/workflows/python-ruff.yaml
+    uses: RegioHelden/github-reusable-workflows/.github/workflows/python-ruff.yaml@main
     with:
       ruff-version: "0.9.9"
       python-version: "3.12"
