@@ -1,0 +1,9 @@
+---
+
+name: Open release PR
+
+on:
+  workflow_dispatch:
+
+  release-pr:
+    uses: RegioHelden/github-reusable-workflows/.github/workflows/release-pull-request.yaml@main
