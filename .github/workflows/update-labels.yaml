@@ -1,0 +1,14 @@
+---
+
+name: Cron actions
+
+on:
+  schedule:
+    - cron:  '0 0 * * *'
+
+jobs:
+  update-labels:
+    name: Update labels
+    runs-on: ubuntu-latest
+    steps:
+      - uses: RegioHelden/github-reusable-workflows/.github/workflows/sync-labels.yaml
