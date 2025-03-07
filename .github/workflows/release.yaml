@@ -1,10 +1,11 @@
 ---
 
-name: Open release PR
+name: Release pull request
 
 on:
   workflow_dispatch:
 
 jobs:
   release-pr:
+    name: Open release pull request
     uses: RegioHelden/github-reusable-workflows/.github/workflows/release-pull-request.yaml@main
